@@ -121,10 +121,10 @@ VALUES
 ## ER Diagram
 ![Tux, the Linux mascot](ER.png)
 ## Assignment 2
-30 Questions
->*1-10 Single table Questions
->*11-20 Two Table Questions
->*21-30 Three Table Questions
+30 Questions \
+*1-10 Single table Questions \
+*11-20 Two Table Questions \
+*21-30 Three Table Questions 
 
 1. What are the total calories consumed by a particular user on a specific date?
 2. Which food items have been consumed the most by users?
@@ -169,6 +169,7 @@ AND Date = '2024-04-21'
 GROUP BY UserID, Date;
 ```
 ![Tux, the Linux mascot](Q1.png)
+
 Q.2- Which food items have been consumed the most by users?
 ```
 SELECT FoodItem, SUM(Quantity) AS TotalConsumption
@@ -177,6 +178,7 @@ GROUP BY FoodItem
 ORDER BY TotalConsumption DESC;
 ```
 ![Tux, the Linux mascot](Q2.png)
+
 Q.3- How many calories have been consumed by all users on a specific date?
 ```
 
@@ -185,6 +187,7 @@ FROM Nutrition
 WHERE Date = '2024-04-21';
 ```
 ![Tux, the Linux mascot](Q3.png)
+
 
 Q.4- What is the average calorie intake per meal type for a particular user?
 ```
