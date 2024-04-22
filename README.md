@@ -1,9 +1,8 @@
 # DASQL Mid-Term
 ## Assignment 1
 Problem Statement-:
-```
-Develop a nutrition tracking system to analyze users' dietary habits and calorie intake. The system should allow users to input their meals, track calorie consumption, and provide insights such as total calorie intake per user, average intake, total intake for each meal type, and identification of users consuming specific food items. The goal is to promote healthier eating habits by providing personalized dietary analysis and feedback.
-```
+>Develop a nutrition tracking system to analyze users' dietary habits and calorie intake. The system should allow users to input their meals, track calorie consumption, and provide insights such as total calorie intake per user, average intake, total intake for each meal type, and identification of users consuming specific food items. The goal is to promote healthier eating habits by providing personalized dietary analysis and feedback.
+
 ## User Table
 ```
 CREATE TABLE Users (
@@ -123,10 +122,9 @@ VALUES
 ![Tux, the Linux mascot](ER.png)
 ## Assignment 2
 30 Questions
-```
-*1-10 Single table Questions
-*11-20 Two Table Questions
-*21-30 Three Table Questions
+>*1-10 Single table Questions
+>*11-20 Two Table Questions
+>*21-30 Three Table Questions
 
 1. What are the total calories consumed by a particular user on a specific date?
 2. Which food items have been consumed the most by users?
@@ -158,7 +156,7 @@ VALUES
 28. What was the total calorie intake of all users on April 15th, 2024, during swimming sessions? Additionally, what was the workout type and duration for users who had a swimming session on the same day, and how many calories did they burn?
 29. Which user had the lowest calorie intake on April 20th, 2024, and what meal did they consume? Also, what was the workout type and duration for this user on the same day, and how many calories did they burn?
 30. What was the total calorie intake of all users on April 13th, 2024, and what was the most consumed meal type? Additionally, what was the workout type and duration for users who had a workout session on the same day, and how many calories did they burn?
-```
+
 ## Assignment 3
 >10 Single table Questions-:
 
